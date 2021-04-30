@@ -16,6 +16,7 @@
 		181FEAAF263BB60500547338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FEAAE263BB60500547338 /* main.m */; };
 		181FEAB9263BB60500547338 /* LLDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FEAB8263BB60500547338 /* LLDemoTests.m */; };
 		181FEAC4263BB60500547338 /* LLDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181FEAC3263BB60500547338 /* LLDemoUITests.m */; };
+		BB2637D513B1A49692CEA728 /* libPods-LLDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C2366C787E3AB91C7B47F81 /* libPods-LLDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		181FEABF263BB60500547338 /* LLDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181FEAC3263BB60500547338 /* LLDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDemoUITests.m; sourceTree = "<group>"; };
 		181FEAC5263BB60500547338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB27AE28954C8D1D745AEA4 /* Pods-LLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDemo.release.xcconfig"; path = "Target Support Files/Pods-LLDemo/Pods-LLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6C2366C787E3AB91C7B47F81 /* libPods-LLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFA1D22E360E7551490AF5D6 /* Pods-LLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLDemo.debug.xcconfig"; path = "Target Support Files/Pods-LLDemo/Pods-LLDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB2637D513B1A49692CEA728 /* libPods-LLDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				181FEAB7263BB60500547338 /* LLDemoTests */,
 				181FEAC2263BB60500547338 /* LLDemoUITests */,
 				181FEA9A263BB60200547338 /* Products */,
+				B7DEAE420DAF7AAB6E2D6281 /* Pods */,
+				FD1049AC8FA37E14053535AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +144,23 @@
 			path = LLDemoUITests;
 			sourceTree = "<group>";
 		};
+		B7DEAE420DAF7AAB6E2D6281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFA1D22E360E7551490AF5D6 /* Pods-LLDemo.debug.xcconfig */,
+				6BB27AE28954C8D1D745AEA4 /* Pods-LLDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD1049AC8FA37E14053535AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C2366C787E3AB91C7B47F81 /* libPods-LLDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181FEAC8263BB60500547338 /* Build configuration list for PBXNativeTarget "LLDemo" */;
 			buildPhases = (
+				AF67FB7097A2C367402F4F71 /* [CP] Check Pods Manifest.lock */,
 				181FEA95263BB60200547338 /* Sources */,
 				181FEA96263BB60200547338 /* Frameworks */,
 				181FEA97263BB60200547338 /* Resources */,
@@ -260,6 +285,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF67FB7097A2C367402F4F71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		181FEA95263BB60200547338 /* Sources */ = {
@@ -438,11 +488,14 @@
 		};
 		181FEAC9263BB60500547338 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFA1D22E360E7551490AF5D6 /* Pods-LLDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8QAX2Q4PY;
 				INFOPLIST_FILE = LLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,11 +508,14 @@
 		};
 		181FEACA263BB60500547338 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB27AE28954C8D1D745AEA4 /* Pods-LLDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8QAX2Q4PY;
 				INFOPLIST_FILE = LLDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

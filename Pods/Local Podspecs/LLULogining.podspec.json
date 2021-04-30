@@ -1,0 +1,27 @@
+{
+  "name": "LLULogining",
+  "version": "0.1.0",
+  "summary": "A short description of LLULogining.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhangbiao/LLULogining",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhangbiao": "1549217659@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zhangbiao/LLULogining.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LLULogining/Classes/**/*",
+  "dependencies": {
+    "LLUNetworking": [
+
+    ]
+  }
+}

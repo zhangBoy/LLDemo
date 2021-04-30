@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145F8A31BBF540408C67AA50A998C522 /* LLULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726EDC31CF165D792AA6F0F689CE5D8F /* LLULogining-dummy.m */; };
+		2E1CF2F90CE7EC1DC823AA47F72D5BAE /* LLUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F888B3BBB05A6D483E1DBF063C750A96 /* LLUNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73EC26008AF3FF2CD3FD65B2A9D952FF /* LLULogining.m in Sources */ = {isa = PBXBuildFile; fileRef = 705722F0B3BEF28A162C816E1648BC5C /* LLULogining.m */; };
+		C3287C7A295640E729C82A942838AB06 /* LLUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E5C3852DBC7B6DBF28FC2E3237B421 /* LLUNetworking.m */; };
+		DB599E5FDA1899FDB6EBE82B8C97E796 /* LLUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B76A22837E73641E51CC5B050F4F7BD4 /* LLUNetworking-dummy.m */; };
+		EF84F198949D4344B1D46D86D0B7080A /* Pods-LLDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DF141F94C3312F49AFB79C84534A47 /* Pods-LLDemo-dummy.m */; };
+		FEA3FF00C09312FA318BA1C7DA96E9C5 /* LLULogining.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C188EB054BAA4F5C66D7D0FCD04657 /* LLULogining.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		541811871EF26A6CD967DDFF65C983D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DA0564C0D517EC0E2BC9163B36AB15;
+			remoteInfo = LLUNetworking;
+		};
+		69A69266E873F6AB05E8AD8773D4A276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE58129BB9C7296C50B75C6BB8D3784A;
+			remoteInfo = LLULogining;
+		};
+		72E59077C1440BB5FAF48F90F4939885 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DA0564C0D517EC0E2BC9163B36AB15;
+			remoteInfo = LLUNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077665CBD94BEC35F829735FD4F52810 /* LLUNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLUNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		0B2044F1E2F211CCEBB84A60274B07EC /* Pods-LLDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E383D9F0F3142073E99E27C707FC790 /* Pods-LLDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		112D4D3633C5FBF54A75D9F3DFE56FF8 /* LLULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLULogining-prefix.pch"; sourceTree = "<group>"; };
+		12C6810253935B646B7EE2AEE2D1D018 /* LLUNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLUNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		21837E156D22145324A2015A6A47BCBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../LLULogining/README.md; sourceTree = "<group>"; };
+		2DFCF14F04BB7905D83482FD20D90CD4 /* Pods-LLDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48F535B13F3EE23C28190CF79D878188 /* LLUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LLUNetworking-prefix.pch"; sourceTree = "<group>"; };
+		510D8FC9ED0053211292C1F05B97FF5C /* LLULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = LLULogining.podspec; path = ../LLULogining/LLULogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		67336D5A111497EA8834A73057AA73AC /* libLLULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLLULogining.a; path = libLLULogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA4EA028FD0DB408426B7C805AB02AB /* Pods-LLDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLDemo.release.xcconfig"; sourceTree = "<group>"; };
+		705722F0B3BEF28A162C816E1648BC5C /* LLULogining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLULogining.m; path = ../LLULogining/LLULogining/Classes/LLULogining.m; sourceTree = "<group>"; };
+		726EDC31CF165D792AA6F0F689CE5D8F /* LLULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLULogining-dummy.m"; sourceTree = "<group>"; };
+		741A53539DAD2C18B75AA6BF61544C9B /* libLLUNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLLUNetworking.a; path = libLLUNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FCBE1141AF2AB482FBE6C1323F16A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3DF141F94C3312F49AFB79C84534A47 /* Pods-LLDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLDemo-dummy.m"; sourceTree = "<group>"; };
+		B4DDD8CD5CF7E92B2F72094D3BE5034D /* libPods-LLDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LLDemo.a"; path = "libPods-LLDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76A22837E73641E51CC5B050F4F7BD4 /* LLUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LLUNetworking-dummy.m"; sourceTree = "<group>"; };
+		BA4F91B86CDF403782802B6D16682C08 /* LLULogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLULogining.debug.xcconfig; sourceTree = "<group>"; };
+		C6E5C3852DBC7B6DBF28FC2E3237B421 /* LLUNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LLUNetworking.m; path = LLUNetworking/Classes/LLUNetworking.m; sourceTree = "<group>"; };
+		D228668FA1720DD2530779EFB360C6B1 /* LLULogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLULogining.release.xcconfig; sourceTree = "<group>"; };
+		E2C188EB054BAA4F5C66D7D0FCD04657 /* LLULogining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLULogining.h; path = ../LLULogining/LLULogining/Classes/LLULogining.h; sourceTree = "<group>"; };
+		EACC79545D0BE299D5E2BB3247BFC4F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LLULogining/LICENSE; sourceTree = "<group>"; };
+		F888B3BBB05A6D483E1DBF063C750A96 /* LLUNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLUNetworking.h; path = LLUNetworking/Classes/LLUNetworking.h; sourceTree = "<group>"; };
+		FC71A85C75C04A373382BDE2A8711708 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FE1F228939BD0F2AAD3C0D356BD4F9B9 /* LLUNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLUNetworking.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3760331721725D31965EC3FA901724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0C4EDE159F378D6D1F619BB550A271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29FBBB509CE801499C87A3CB9A660F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DE479E9FC2A483648AF812717C4F1F6 /* Pods-LLDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCF14F04BB7905D83482FD20D90CD4 /* Pods-LLDemo-acknowledgements.markdown */,
+				0B2044F1E2F211CCEBB84A60274B07EC /* Pods-LLDemo-acknowledgements.plist */,
+				A3DF141F94C3312F49AFB79C84534A47 /* Pods-LLDemo-dummy.m */,
+				0E383D9F0F3142073E99E27C707FC790 /* Pods-LLDemo.debug.xcconfig */,
+				6DA4EA028FD0DB408426B7C805AB02AB /* Pods-LLDemo.release.xcconfig */,
+			);
+			name = "Pods-LLDemo";
+			path = "Target Support Files/Pods-LLDemo";
+			sourceTree = "<group>";
+		};
+		25413534EF14C908CBAC23657F5A72D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				88FCBE1141AF2AB482FBE6C1323F16A3 /* LICENSE */,
+				12C6810253935B646B7EE2AEE2D1D018 /* LLUNetworking.podspec */,
+				FC71A85C75C04A373382BDE2A8711708 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		30A3EC2C23384FDEAA7DE620D26D708A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B76A22837E73641E51CC5B050F4F7BD4 /* LLUNetworking-dummy.m */,
+				48F535B13F3EE23C28190CF79D878188 /* LLUNetworking-prefix.pch */,
+				077665CBD94BEC35F829735FD4F52810 /* LLUNetworking.debug.xcconfig */,
+				FE1F228939BD0F2AAD3C0D356BD4F9B9 /* LLUNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/LLUNetworking";
+			sourceTree = "<group>";
+		};
+		5221861EF63F97FD7A50ED60C0BECBE3 /* LLULogining */ = {
+			isa = PBXGroup;
+			children = (
+				E2C188EB054BAA4F5C66D7D0FCD04657 /* LLULogining.h */,
+				705722F0B3BEF28A162C816E1648BC5C /* LLULogining.m */,
+				65B7E5566B5E96B791B6CD004641F925 /* Pod */,
+				E57BD89768540B172BD3C6F9ACF91861 /* Support Files */,
+			);
+			name = LLULogining;
+			path = ../Lib/LLUlogining;
+			sourceTree = "<group>";
+		};
+		52C4D4F60389EA26143A1FA631A1B139 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5221861EF63F97FD7A50ED60C0BECBE3 /* LLULogining */,
+				DC5AE74CB243DE4DA4213EF4EF147F3A /* LLUNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		65B7E5566B5E96B791B6CD004641F925 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EACC79545D0BE299D5E2BB3247BFC4F6 /* LICENSE */,
+				510D8FC9ED0053211292C1F05B97FF5C /* LLULogining.podspec */,
+				21837E156D22145324A2015A6A47BCBD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B60FB2F14B6EE0BD40E449AEA87E5BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67336D5A111497EA8834A73057AA73AC /* libLLULogining.a */,
+				741A53539DAD2C18B75AA6BF61544C9B /* libLLUNetworking.a */,
+				B4DDD8CD5CF7E92B2F72094D3BE5034D /* libPods-LLDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				52C4D4F60389EA26143A1FA631A1B139 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				B60FB2F14B6EE0BD40E449AEA87E5BD5 /* Products */,
+				DD5B96507EF1BE20F4FD19EDCD69B2A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC5AE74CB243DE4DA4213EF4EF147F3A /* LLUNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F888B3BBB05A6D483E1DBF063C750A96 /* LLUNetworking.h */,
+				C6E5C3852DBC7B6DBF28FC2E3237B421 /* LLUNetworking.m */,
+				25413534EF14C908CBAC23657F5A72D5 /* Pod */,
+				30A3EC2C23384FDEAA7DE620D26D708A /* Support Files */,
+			);
+			name = LLUNetworking;
+			path = ../Lib/LLUNetworking;
+			sourceTree = "<group>";
+		};
+		DD5B96507EF1BE20F4FD19EDCD69B2A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DE479E9FC2A483648AF812717C4F1F6 /* Pods-LLDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E57BD89768540B172BD3C6F9ACF91861 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				726EDC31CF165D792AA6F0F689CE5D8F /* LLULogining-dummy.m */,
+				112D4D3633C5FBF54A75D9F3DFE56FF8 /* LLULogining-prefix.pch */,
+				BA4F91B86CDF403782802B6D16682C08 /* LLULogining.debug.xcconfig */,
+				D228668FA1720DD2530779EFB360C6B1 /* LLULogining.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/LLULogining";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F20EBA23F4147DEA3F02A7FA94F1955 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA3FF00C09312FA318BA1C7DA96E9C5 /* LLULogining.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90B0DDFA445BF3820AE65EF1EC86C2D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB036D0CD2F66458D7EE9FEEF869D766 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1CF2F90CE7EC1DC823AA47F72D5BAE /* LLUNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D7DA0564C0D517EC0E2BC9163B36AB15 /* LLUNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E329859790BDC590CC4DEABE67E5A163 /* Build configuration list for PBXNativeTarget "LLUNetworking" */;
+			buildPhases = (
+				FB036D0CD2F66458D7EE9FEEF869D766 /* Headers */,
+				C691F7B9BC6011A529DF42B2936C169D /* Sources */,
+				4A3760331721725D31965EC3FA901724 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLUNetworking;
+			productName = LLUNetworking;
+			productReference = 741A53539DAD2C18B75AA6BF61544C9B /* libLLUNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DB2D0BE502CAA13B6AF9132BD3B7E67E /* Pods-LLDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E8523244D5C4C8908CA51DA4CE79228 /* Build configuration list for PBXNativeTarget "Pods-LLDemo" */;
+			buildPhases = (
+				90B0DDFA445BF3820AE65EF1EC86C2D1 /* Headers */,
+				31E30F420D05B4351D7F55919BBB3C32 /* Sources */,
+				5C0C4EDE159F378D6D1F619BB550A271 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F6153BECA55691405DFA16592854ED5 /* PBXTargetDependency */,
+				4F5A161DE2AD79F65C4EE454C1E7FE82 /* PBXTargetDependency */,
+			);
+			name = "Pods-LLDemo";
+			productName = "Pods-LLDemo";
+			productReference = B4DDD8CD5CF7E92B2F72094D3BE5034D /* libPods-LLDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE58129BB9C7296C50B75C6BB8D3784A /* LLULogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F6A8C739866923B8F2A9461D82E0B5 /* Build configuration list for PBXNativeTarget "LLULogining" */;
+			buildPhases = (
+				3F20EBA23F4147DEA3F02A7FA94F1955 /* Headers */,
+				A3059623AD59AA8A0DC394945F7918F5 /* Sources */,
+				F29FBBB509CE801499C87A3CB9A660F1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFA97F39A632205FFC6E9E738DE73759 /* PBXTargetDependency */,
+			);
+			name = LLULogining;
+			productName = LLULogining;
+			productReference = 67336D5A111497EA8834A73057AA73AC /* libLLULogining.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B60FB2F14B6EE0BD40E449AEA87E5BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE58129BB9C7296C50B75C6BB8D3784A /* LLULogining */,
+				D7DA0564C0D517EC0E2BC9163B36AB15 /* LLUNetworking */,
+				DB2D0BE502CAA13B6AF9132BD3B7E67E /* Pods-LLDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31E30F420D05B4351D7F55919BBB3C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF84F198949D4344B1D46D86D0B7080A /* Pods-LLDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3059623AD59AA8A0DC394945F7918F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145F8A31BBF540408C67AA50A998C522 /* LLULogining-dummy.m in Sources */,
+				73EC26008AF3FF2CD3FD65B2A9D952FF /* LLULogining.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C691F7B9BC6011A529DF42B2936C169D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB599E5FDA1899FDB6EBE82B8C97E796 /* LLUNetworking-dummy.m in Sources */,
+				C3287C7A295640E729C82A942838AB06 /* LLUNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F6153BECA55691405DFA16592854ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLULogining;
+			target = FE58129BB9C7296C50B75C6BB8D3784A /* LLULogining */;
+			targetProxy = 69A69266E873F6AB05E8AD8773D4A276 /* PBXContainerItemProxy */;
+		};
+		4F5A161DE2AD79F65C4EE454C1E7FE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLUNetworking;
+			target = D7DA0564C0D517EC0E2BC9163B36AB15 /* LLUNetworking */;
+			targetProxy = 72E59077C1440BB5FAF48F90F4939885 /* PBXContainerItemProxy */;
+		};
+		FFA97F39A632205FFC6E9E738DE73759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLUNetworking;
+			target = D7DA0564C0D517EC0E2BC9163B36AB15 /* LLUNetworking */;
+			targetProxy = 541811871EF26A6CD967DDFF65C983D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3197CA1FAA1DCB2B275879B2306D2375 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA4EA028FD0DB408426B7C805AB02AB /* Pods-LLDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31CE54570EF6006F2056A270D0A3A38C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E383D9F0F3142073E99E27C707FC790 /* Pods-LLDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52E78EF8CF7E4D1D239C874A26C6ACB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1F228939BD0F2AAD3C0D356BD4F9B9 /* LLUNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLUNetworking/LLUNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLUNetworking;
+				PRODUCT_NAME = LLUNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		688639F1978179D8FFA17F6F3ECB14F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4F91B86CDF403782802B6D16682C08 /* LLULogining.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLULogining/LLULogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLULogining;
+				PRODUCT_NAME = LLULogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B322847EF79CABD0DB238915477CEB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077665CBD94BEC35F829735FD4F52810 /* LLUNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLUNetworking/LLUNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLUNetworking;
+				PRODUCT_NAME = LLUNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7EEEBFC1B74F0EEDF7030449384A748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D228668FA1720DD2530779EFB360C6B1 /* LLULogining.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LLULogining/LLULogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LLULogining;
+				PRODUCT_NAME = LLULogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E8523244D5C4C8908CA51DA4CE79228 /* Build configuration list for PBXNativeTarget "Pods-LLDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31CE54570EF6006F2056A270D0A3A38C /* Debug */,
+				3197CA1FAA1DCB2B275879B2306D2375 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F6A8C739866923B8F2A9461D82E0B5 /* Build configuration list for PBXNativeTarget "LLULogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				688639F1978179D8FFA17F6F3ECB14F2 /* Debug */,
+				A7EEEBFC1B74F0EEDF7030449384A748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E329859790BDC590CC4DEABE67E5A163 /* Build configuration list for PBXNativeTarget "LLUNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B322847EF79CABD0DB238915477CEB6 /* Debug */,
+				52E78EF8CF7E4D1D239C874A26C6ACB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

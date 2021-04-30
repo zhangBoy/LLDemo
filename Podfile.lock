@@ -1,0 +1,22 @@
+PODS:
+  - LLULogining (0.1.0):
+    - LLUNetworking
+  - LLUNetworking (0.1.0)
+
+DEPENDENCIES:
+  - LLULogining (from `Lib/LLUlogining`)
+  - LLUNetworking (from `Lib/LLUNetworking`)
+
+EXTERNAL SOURCES:
+  LLULogining:
+    :path: Lib/LLUlogining
+  LLUNetworking:
+    :path: Lib/LLUNetworking
+
+SPEC CHECKSUMS:
+  LLULogining: a6605b82936705397b2297dcef859d81a80415e2
+  LLUNetworking: fa3513dbc2316dcfc51ae1f2a7475a1a86627b44
+
+PODFILE CHECKSUM: 62bcd827e97cf5cf02366f81106da27805ef8696
+
+COCOAPODS: 1.10.1
